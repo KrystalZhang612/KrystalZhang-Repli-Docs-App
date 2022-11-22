@@ -53,6 +53,7 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
 ### Then run `flutter run -d chrome --web-port 3000`
 ### Have fun testing the replica of Google Docs Clone -> RepliDocs App! 
 
+# 🛠️ Developing Languages, Tools, and Techniques Needed
 
 
 
