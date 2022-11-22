@@ -173,6 +173,49 @@ final authRepositoryProvider = Provider(
   (ref) => AuthRepository(
 ...
 ```
+Run flutter web server again. The google account sign-in page popped:<br/> 
+[google account sign-in page popped.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20account%20sign-in%20page%20popped.png)<br/> 
+Sign in to my google account:<br/> 
+[signed in.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/signed%20in.png)<br/>
+Use npm in Vscode to install Express socket, JSONWEBTOKEN and Mongoose:
+```bash
+ npm i express http socket.io@2.3.0 jsonwebtoken mongoose
+```
+Install Nodemon:
+```bash
+npm i nodemon --save-dev
+```
+Use `npm run de` to start the server at port 3001 based on [index.js](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/server/index.js):
+```JavaScript
+const express = require("express");
+const mongoose = require("mongoose");
+const PORT = process.env.PORT | 3001;
+const app = express();
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`connected at port ${PORT}`);
+});
+```
+server connected.<br/>
+## ***Connect to MongoDB:***
+```JavaScript
+mongoose
+    .connect(DB)
+    .then(() => {
+        console.log("Connection successful!");
+    })
+    .catch((err) => {
+        console.log(err);
+    })
+//async -> await
+// .then((data) => print(data))
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`connected at port ${PORT}`);
+});
+```
+Set up MongoDB and run the server `npm run dev` again:<br/>
+[mongodb connection successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/mongodb%20connection%20successful.png)<br/>
+
+# Debugging&Troubleshooting
 
 
 
@@ -191,6 +234,11 @@ final authRepositoryProvider = Provider(
 [google icon imported.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20imported.png)<br/>
 [google icon resized to height 20.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20resized%20to%20height%2020.png)<br/>
 [web server passed to localhost 3000.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/web%20server%20passed%20to%20localhost%203000.png)<br/>
+[google account sign-in page popped.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20account%20sign-in%20page%20popped.png)<br/> 
+[signed in.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/signed%20in.png)<br/>
+[mongodb connection successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/mongodb%20connection%20successful.png)<br/>
+
+
 
 
 
