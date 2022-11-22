@@ -315,14 +315,22 @@ Make the text editor canvas align at center:
 [text editing canvas align at center.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/text%20editing%20canvas%20align%20at%20center.png)<br/> 
 bold, italic, underline, different text colors and various text effects testing:<br/>
 ![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/various%20text%20effects%20testing.png)<br/>
-
-
-
-
-
-
-
-
+Install socket_io_client with:
+```bash
+flutter pub add socket_io_client
+```
+generate public sharing link in document_screen.dart:
+```dart
+Clipboard.setData(ClipboardData(
+text:
+'http://localhost:3000/#/document/${widget.id}'))
+              .then(
+                 (value) {
+         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                        content: Text(
+                          'Link copied!'
+```
+Now click on Share button, a public sharing link will be generated.
 
 # Debugging&Troubleshooting
 - Error: `Cannot run with sound null safety, because the following
