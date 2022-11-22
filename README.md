@@ -123,6 +123,17 @@ flutter run
 ```
 Choose Chrome Web/macOS Safari for testing.<br/> 
 Done setting up when `Flutter Demo` web server successfully launched in browser.<br/>
+[flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
+
+
+
+
+
+
+
+
+# Testing Result
+
 
 
 
