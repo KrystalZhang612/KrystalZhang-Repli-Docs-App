@@ -17,3 +17,21 @@
 # Contribution
 [Author]()
 # Functionalities/Demo
+- Contains a neat navbar.
+- Allows users to sign in, sign out, authenticate with Google and staying logged in.
+- Creating a New Document.
+- Displaying all documents created by the user.
+- Contains a well-designed Document Screen.
+- Contains Collaborative Editing.
+- Auto-Save functionality works.
+- Sharing Link works.
+
+
+
+
+
+
+
+
+
+
