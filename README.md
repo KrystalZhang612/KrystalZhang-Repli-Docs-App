@@ -35,7 +35,11 @@
 # Method to Run & Test the Project Locally
 ### Download the entire project to the local directory. 
 ### Open the project with Vscode. 
-### Download needed dependencies, extension tools and MongoDB from [README](). 
+### Download needed dependencies, extension tools and MongoDB from [README](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md). 
+### Use command  `ipconfig getifaddr en0` or  `ipconfig getifaddr en1` in the local device terminal to obtain your local private ip address. 
+### Replace `<your ip address>` in [`repli_docs_app/lib/constants.dart`]() with your own ip address. 
+
+
 
 
 
