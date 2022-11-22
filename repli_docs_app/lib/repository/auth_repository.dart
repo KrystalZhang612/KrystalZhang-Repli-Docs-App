@@ -4,7 +4,6 @@ import 'package:repli_docs_app/models/error_model.dart';
 import 'package:repli_docs_app/models/user_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:http/http.dart';
 import 'package:repli_docs_app/repository/local_storage_repository.dart';
 
