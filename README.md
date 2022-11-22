@@ -13,7 +13,7 @@
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics]()<br/>
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#tags-and-topics)<br/>
 # Contribution
 [Author]()
 # Functionalities/Demo
