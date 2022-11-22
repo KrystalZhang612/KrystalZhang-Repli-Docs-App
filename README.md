@@ -12,7 +12,7 @@
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/>
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/>
 # Contribution
 [Author]()
@@ -124,6 +124,7 @@ flutter run
 Choose Chrome Web/macOS Safari for testing.<br/> 
 Done setting up when `Flutter Demo` web server successfully launched in browser.<br/>
 [flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
+# Synchronous Developing Notes
 
 
 
@@ -133,6 +134,8 @@ Done setting up when `Flutter Demo` web server successfully launched in browser.
 
 
 # Testing Result
+[flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
+
 
 
 
