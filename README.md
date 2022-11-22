@@ -11,7 +11,7 @@
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
-[Synchronous Developing Notes]()<br/>
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/>
 # Contribution
@@ -125,6 +125,21 @@ Choose Chrome Web/macOS Safari for testing.<br/>
 Done setting up when `Flutter Demo` web server successfully launched in browser.<br/>
 [flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
 # Synchronous Developing Notes
+Pass Google logo for the signin page in [login_screen.dart](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/screens/login_screen.dart):
+```dart
+import 'package:flutter/material.dart';
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: ElevatedButton.icon(
+          onPressed: () {},
+          icon: Image.asset('assets/images/google-icon.png'),
+          label: const Text(
+            'Sign in with Google'
+```
 
 
 
