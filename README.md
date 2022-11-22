@@ -83,6 +83,7 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg" title="dart" alt ="dart" width="60" height="60"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="futter" alt ="flutter" width="60" height="60"/>&nbsp;  
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="vscode" alt ="vscode" width="60" height="60"/>&nbsp;  
 </div>
 
 
