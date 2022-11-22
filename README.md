@@ -8,7 +8,7 @@
 ## RepliDocs App Overview:
 ![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/RepliDocs%20App%20Overview.png)<br/>
 # Build
-[Method to Run & Test the Project Locally]()<br/>
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups]()<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/>
@@ -33,6 +33,40 @@
 | Linux            | ✅                 |
 | web server       | ✅                 |
 # Method to Run & Test the Project Locally
+### Download the entire project to the local directory. 
+### Open the project with Vscode. 
+### Download needed dependencies, extension tools and MongoDB from [README](). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
