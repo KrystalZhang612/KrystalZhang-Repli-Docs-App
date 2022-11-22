@@ -97,8 +97,32 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
 </div>
 
 # Prerequisites & Setups
-
-
+Install Flutter Dart Code extension in Vscode empty starting page.<br/>
+Install Flutter SDK to the desired local directory. <br/> 
+Configure and export Flutter to the local path in Console:
+```bash
+export PATH="$PATH:`pwd`/flutter/bin"
+```
+Use Command Palette in Vscode-> Flutter -> Create a new project -> Application.<br/>
+To avoid macOS “zsh command not found” error:<br/> 
+In Console, run `vim $HOME/.zshrc`<br/>
+Press the "I" key to go into INSERT mode.<br/> 
+Add the following line in the opened file:
+```bash 
+export PATH=$PATH:/Desktop/flutter/bin
+```
+Press "Esc" then write `:wq!` in terminal and press enter to exit vim.<br/> 
+Restart the created Flutter project in Vscode.<br/> 
+In Vscode Terminal, `navigate to the Flutter project first`:
+```bash 
+cd FLUTTER_PROJECT_NAME
+```
+Then run the Flutter project with:
+```bash
+flutter run
+```
+Choose Chrome Web/macOS Safari for testing.<br/> 
+Done setting up when `Flutter Demo` web server successfully launched in browser.<br/>
 
 
 
