@@ -75,6 +75,13 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
 [AutoDraw](https://www.autodraw.com/)<br/> 
 [Flutter Quill](https://pub.dev/packages/flutter_quill)<br/> 
 [socket_io_client](https://pub.dev/packages/socket_io_client)<br/> 
+[C++](https://cplusplus.com/)<br/>
+[CMake](https://cmake.org/)<br/>
+[JavaScript](https://javascript.com/)<br/>
+[HTML5](https://en.wikipedia.org/wiki/HTML5)<br/>
+[Swift5.7](https://docs.swift.org/swift-book/)<br/>
+
+
 
 
 
