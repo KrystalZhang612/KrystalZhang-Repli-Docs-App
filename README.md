@@ -5,6 +5,7 @@
 ⏬
 
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, including unauthorized modifications, forks, pull requests, and other commercial-related uses will be subjected to copyright violation with sebsequent legal concerns.***
+`NOTE:` Must run the project at where the `flutter` directory at. 
 ## RepliDocs App Overview:
 ![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/RepliDocs%20App%20Overview.png)<br/>
 # Build
