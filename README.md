@@ -15,7 +15,7 @@
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#tags-and-topics)<br/>
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#author)
 # Functionalities/Demo
 - Contains a neat navbar.
 - Allows users to sign in, sign out, authenticate with Google and staying logged in.
