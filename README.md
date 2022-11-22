@@ -10,7 +10,7 @@
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/>
 [Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#prerequisites--setups)<br/> 
-[Debugging&Troubleshooting]()<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#synchronous-developing-notes)<br/>
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/>
@@ -216,6 +216,11 @@ Set up MongoDB and run the server `npm run dev` again:<br/>
 [mongodb connection successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/mongodb%20connection%20successful.png)<br/>
 
 # Debugging&Troubleshooting
+- Error: `Cannot run with sound null safety, because the following
+dependencies don't support null safety: - package:http -
+package:http_parser For solutions, see` https://dart.dev/go/unsound-null-safety
+DEBUGGING: Update flutter http to the latest version.
+- 
 
 
 
