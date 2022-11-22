@@ -161,8 +161,18 @@ add
 ```yaml
 add flutter_riverpod: ^2.0.0-dev.9
 ```
-in [pubspec.yaml]()<br/> 
-
+in [pubspec.yaml](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/pubspec.yaml)<br/> 
+Run `dart pub get` in the Vscode terminal.<br/>
+Import Riverpod in [auth_repository.dart](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/repository/auth_repository.dart):
+```dart
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+```
+Add Riverpod provider for login auth:
+```dart
+final authRepositoryProvider = Provider(
+  (ref) => AuthRepository(
+...
+```
 
 
 
