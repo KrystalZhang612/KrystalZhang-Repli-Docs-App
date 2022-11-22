@@ -214,25 +214,123 @@ app.listen(PORT, "0.0.0.0", () => {
 ```
 Set up MongoDB and run the server `npm run dev` again:<br/>
 [mongodb connection successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/mongodb%20connection%20successful.png)<br/>
+Configure local private IP address to be redirect to signup page at port 3001: Use command in local terminal:
+```bash
+ipconfig getifaddr en0/1
+```
+To obtain the local private IP address, and in constants.dart: 
+```dart
+const host = ‘<ip address>:3001`
+```
+Then in auth_repository.dart, pass host:
+```dash
+ var res = await _client.post(Uri.parse('$host/api/signup'),
+            body: userAcc.toJson(),
+            headers: {
+              'Content-Type': 'application/json; charset=UTF-8',
+});
+```
+Now rerun both node and dart terminals on vscode:<br/>
+[redirected to signup 3001 page.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/redirected%20to%20signup%203001%20page.png)<br/>
+Use `flutter pub add shared_preferences` in dart terminal to install shared_pref lib.<br/>
+Use `flutter pub add routemaster` to install routemaster.
+## ***Create new documents:***
+Set up id and routers when creating new document in [router.dart](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/router.dart):
+```dart
+final loggedInRoute = RouteMap(routes: {
+  '/': (route) => const MaterialPage(child: HomeScreen()),
+  '/document/:id/:somethingelse': (route) => MaterialPage(
+        child: DocumentScreen(
+          id: route.pathParameters['id'] ?? '',
+), ),
+```
+Parse Uri of my docs in [document_repository.dart](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/repository/document_repository.dart):
+```dart
+Uri.parse('$host/docs/me'),
+```
+[new document id showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/new%20document%20id%20showed.png)<br/>
+[list of untitled documents parsed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/list%20of%20untitled%20documents%20parsed.png)<br/>
+Design document sharing button in [document_screen.dart](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/screens/document_screen.dart):
+```dart
+Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: kWhiteColor,
+        elevation: 0,
+        actions: [
+          ElevatedButton.icon(
+            onPressed: () {},
+            icon: const Icon(
+Icons.lock,
+size: 16,
+```
+[document sharing button.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/document%20sharing%20button.png)<br/>
+Design document title in document_screen.dart:
+```dart
+title: Row(
+          children: [
+            Image.asset(
+              'assets/images/google-docs-logo.png',
+              height: 40,
+            ),
+            const SizedBox(width: 10),
+            SizedBox(
+              width: 180,
+              child: TextField(
+                controller: titleController,
+                decoration: const InputDecoration(
+                  border: InputBorder.none,
+            contentPadding: EdgeInsets.only(left: 10),
+```
+[document title design.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/document%20title%20design.png)<br/>
+Use `flutter pub add flutter_quill` to install flutter quill.
+## ***Import Quill editor:***
+```dart
+import 'package:flutter_quill/flutter_quill.dart' as quill;
+   body: Column(
+          children: [
+            quill.QuillToolbar.basic(controller: _controller),
+            Expanded(
+              child: quill.QuillEditor.basic(
+                controller: _controller,
+    readOnly: false, // true for view only mode
+```
+[quill editor banner showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/quill%20editor%20banner%20showed.png)<br/>
+Make the text editor canvas align at center:
+```dart
+ body: Center(
+        child: Column(
+          children: [
+            quill.QuillToolbar.basic(controller: _controller),
+            Expanded(
+              child: SizedBox(
+                width: 750,
+                child: Card(
+                  color: kWhiteColor,
+                  elevation: 5,
+                  child: quill.QuillEditor.basic(
+                    controller: _controller,
+                    readOnly: false, // true for view only mode
+```
+[text editing canvas align at center.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/text%20editing%20canvas%20align%20at%20center.png)<br/> 
+bold, italic, underline, different text colors and various text effects testing:<br/>
+![Screenshot](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/various%20text%20effects%20testing.png)<br/>
+
+
+
+
+
+
+
+
 
 # Debugging&Troubleshooting
 - Error: `Cannot run with sound null safety, because the following
 dependencies don't support null safety: - package:http -
 package:http_parser For solutions, see` https://dart.dev/go/unsound-null-safety
 DEBUGGING: Update flutter http to the latest version.
-- 
-
-
-
-
-
-
-
-
-
-
-
-
+- Git Flutter speed up: git push hangs after Total line. DEBUGGING: Increase buffer: run `git config --global http.postBuffer 157286400`.
+- XHTTPEmpty Error: Failed to connect to Mongoose and API server to get response. DEBUGGING: Reconnect to Mongoose-> Node terminal-> `npm run dev` -> Locate errors and debug errors -> Thunder Client -> Send new Request http://localhost:3001/api/signup -> Node run again-> mongoose reactivated -> Dart terminal run.
 
 # Testing Result
 [flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
@@ -242,8 +340,13 @@ DEBUGGING: Update flutter http to the latest version.
 [google account sign-in page popped.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20account%20sign-in%20page%20popped.png)<br/> 
 [signed in.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/signed%20in.png)<br/>
 [mongodb connection successfully.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/mongodb%20connection%20successful.png)<br/>
-
-
+[redirected to signup 3001 page.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/redirected%20to%20signup%203001%20page.png)<br/>
+[new document id showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/new%20document%20id%20showed.png)<br/>
+[list of untitled documents parsed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/list%20of%20untitled%20documents%20parsed.png)<br/>
+[document sharing button.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/document%20sharing%20button.png)<br/>
+[document title design.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/document%20title%20design.png)<br/>
+[quill editor banner showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/quill%20editor%20banner%20showed.png)<br/>
+[text editing canvas align at center.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/text%20editing%20canvas%20align%20at%20center.png)<br/> 
 
 
 
