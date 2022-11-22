@@ -93,9 +93,10 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
   <img src ="https://github.com/devicons/devicon/blob/master/icons/cmake/cmake-original.svg"  title="cmake" alt ="cmake" width="60" height="60"/>&nbsp;
   <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="javascript" alt ="javascript" width="60" height="60"/>&nbsp;
   <img src ="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="html5" alt ="html5" width="60" height="60"/>&nbsp;
-       
-      
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg"  title="swift" alt ="swift" width="60" height="60"/>&nbsp;    
 </div>
+
+# Prerequisites & Setups
 
 
 
