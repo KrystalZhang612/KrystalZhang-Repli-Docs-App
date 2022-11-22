@@ -38,6 +38,23 @@
 ### Download needed dependencies, extension tools and MongoDB from [README](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/README.md). 
 ### Use command  `ipconfig getifaddr en0` or  `ipconfig getifaddr en1` in the local device terminal to obtain your local private ip address. 
 ### Replace `<your ip address>` in [`repli_docs_app/lib/constants.dart`](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/lib/constants.dart) with your own ip address. 
+### Open 2 different Vscode terminals. 
+### In terminal 1: use `cd repli_docs_app` to locate the App root. 
+### In terminal 2: use `cd server` to locate to `index.js`, `node.js` server.
+In [Thunder Client extension](https://www.thunderclient.com/), send a new POST request at http://localhost:3001/api/signup with the JSON body filling out with: 
+```bash
+{
+  "name": "YOUR OWN USERNAME FROM MONGODB", 
+  "email": "YOUR OWN EMAIL ADDRESS FROM MONGODB", 
+  "profilePic": "YOUR OWN PASSWORD FROM MONGODB"
+}
+```
+### Run `npm run dev` in node terminal until it returns “connection successful”.
+### Then run `flutter run -d chrome --web-port 3000`
+### Have fun testing the replica of Google Docs Clone -> RepliDocs App! 
+
+
+
 
 
 
