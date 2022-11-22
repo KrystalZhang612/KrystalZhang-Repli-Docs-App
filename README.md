@@ -54,7 +54,27 @@ In [Thunder Client extension](https://www.thunderclient.com/), send a new POST r
 ### Have fun testing the replica of Google Docs Clone -> RepliDocs App! 
 
 # 🛠️ Developing Languages, Tools, and Techniques Needed
-
+[Flutter Dart Code v3.52.0 Vscode Extension](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)<br/>
+[Flutter SDK](https://docs.flutter.dev/get-started/install/macos)<br/>
+[Vscode 1.73](https://code.visualstudio.com/updates/v1_73)<br/> 
+[Dart programming language](https://dart.dev)<br/> 
+[dart google_sign_in dev dependency 5.4.2](https://pub.dev/packages/google_sign_in)<br/>
+[Google Console Cloud API](https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project)<br/> 
+[Xcode 14.1](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_1-release-notes)<br/> 
+[Flutter Riverpod Dependency](https://codewithandrea.com/articles/flutter-state-management-riverpod/)<br/>
+[Node.JS v18.12.0](https://nodejs.org/en/)<br/>
+[NPM JS](https://www.npmjs.com)<br/> 
+[Socket Express](https://socket.io/get-started/chat/)<br/>
+[JSON Web Token](https://www.npmjs.com/package/jsonwebtoken)<br/> 
+[Mongoose](https://www.npmjs.com/package/mongoose)<br/> 
+[MongoDB Cloud](https://www.mongodb.com)<br/> 
+[Thunder Client Vscode extension v2.0.0](https://www.thunderclient.com/)<br/>
+[JSON Web Tokens](https://jwt.io/)<br/>
+[routemaster](https://pub.dev/packages/routemaster)<br/> 
+[Flutter Riverpod Snippets](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)<br/> 
+[AutoDraw](https://www.autodraw.com/)<br/> 
+[Flutter Quill](https://pub.dev/packages/flutter_quill)<br/> 
+[socket_io_client](https://pub.dev/packages/socket_io_client)<br/> 
 
 
 
