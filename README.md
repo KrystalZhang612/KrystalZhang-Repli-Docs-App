@@ -140,6 +140,34 @@ class LoginScreen extends StatelessWidget {
           label: const Text(
             'Sign in with Google'
 ```
+[google icon imported.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20imported.png)<br/>
+Resize it and we got:<br/>
+[google icon resized to height 20.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20resized%20to%20height%2020.png)<br/>
+Create OAuth client ID with Google Console Cloud API.<br/>
+`NOTE`: Actively use command `flutter clean` and `flutter run` to rebuild from root.<br/> 
+Configure for Android and append [google_services.JSON](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/repli_docs_app/android/app/google_services.json)<br/>
+Configure for iOS: Open it with Xcode-> input bundle ID-> download plist. <br/>
+Configure web applications refer to the pub dev page.<br/> 
+Set preferable localhost at port 3000.<br/> 
+Now in Vscode run:
+```bash
+ flutter run -d chrome --web-port 3000
+```
+Now passed the web server at localhost:3000 successfully:<br/>
+[web server passed to localhost 3000.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/web%20server%20passed%20to%20localhost%203000.png)<br/>
+## ***Configure Google sign in using Node.js:***
+Install Riverpod dependency:<br/>
+add 
+```yaml
+add flutter_riverpod: ^2.0.0-dev.9
+```
+in [pubspec.yaml]()<br/> 
+
+
+
+
+
+
 
 
 
@@ -150,7 +178,9 @@ class LoginScreen extends StatelessWidget {
 
 # Testing Result
 [flutter project web server done setting up.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/flutter%20project%20web%20server%20done%20setting%20up.png)<br/>
-
+[google icon imported.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20imported.png)<br/>
+[google icon resized to height 20.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/google%20icon%20resized%20to%20height%2020.png)<br/>
+[web server passed to localhost 3000.PNG](https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/web%20server%20passed%20to%20localhost%203000.png)<br/>
 
 
 
