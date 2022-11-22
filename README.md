@@ -32,7 +32,7 @@
 | Android          | :white_check_mark: |
 | Linux            | ✅                 |
 | web server       | ✅                 |
-
+# Method to Run & Test the Project Locally
 
 
     
