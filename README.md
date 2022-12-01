@@ -343,6 +343,24 @@ DEBUGGING: Update flutter http to the latest version.
 
 # Testing Result
 
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/flutter%20project%20web%20server%20done%20setting%20up.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/google%20icon%20imported.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/google%20icon%20resized%20to%20height%2020.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/web%20server%20passed%20to%20localhost%203000.PNG">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/google%20account%20sign-in%20page%20popped.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/signed%20in.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/mongodb%20connection%20successful.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/redirected%20to%20signup%203001%20page.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/new%20document%20id%20showed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/list%20of%20untitled%20documents%20parsed.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/document%20sharing%20button.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/document%20title%20design.PNG">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Repli-Docs-App/blob/main/testing-result-repli_docs_app/quill%20editor%20banner%20showed.PNG">&nbsp; 
+</p> 
+
+
+
 
 # Tags and Topics
 full-stack, flutter, dart, vscode, google-docs-clone, google-console-cloud-api, xcode, node-js, npm, socket-express, json-web-tokens, mongodb, thunder-client, routemaster, riverpod, flutter-quill, socket-io-client, javascript, cpp, cmake, html5, swift5.7. 
